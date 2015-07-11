@@ -16,6 +16,7 @@ $(document).ready(function(){
 		$('#newItem').prepend('<div>' + itemName + '</div>');
 		$('#newItemPriceBox').prepend('<div>' + newItemPrice + '</div>');
 	});
+
 // -------- Delete Button
 	$('#deleteItem').click(function() {
   		$(this).first().parent().slideUp();
@@ -23,7 +24,3 @@ $(document).ready(function(){
 
 });
 
-
-	// $('#deleteItem').click(function() {
- //  		$(this).parent().slideUp();
-	// });
