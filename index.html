@@ -14,93 +14,113 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
 
-<body>
-  <h2>Dairy World</h2>
-  <!-- Item List  -->
-  <section>
-    <div class=".container">
+  <body>
+    <h2>Dairy World</h2>
+    <br>
+    <!-- Item List  -->
+    <div class="container">
       <div class="row">
-        <div class="items">
-          <div class="col-xs-3 item">Skim Milk</div>
-          <div class="col-xs-1 pricePerItem">$60.00</div>
-          <div class="col-xs-2 quantity"><lable>QTY </lable><input id="quantity" /></div>
-          <div class="col-xs-2 addOrResetButton"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="col-xs-2 deletingButton"><button id="deleteItem">Remove from List</button></div>
-          <div class="col-xs-1 subtotal">$0.00</div>
-        </div>
-        <div class="items">
-          <div class="item col-xs-3">Butter</div>
-          <div class="pricePerItem col-xs-1">$60.00</div>
-          <div class="quantity col-xs-2"><lable>QTY </lable><input id="quantity" /></div>
-          <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
-          <div class="subtotal col-xs-2">$0.00</div>
-        </div>
-        <div class="items">
-          <div class="item col-xs-3">Cheddar Cheese</div>
-          <div class="pricePerItem col-xs-1">$60.00</div>
-          <div class="quantity col-xs-2"><lable>QTY </lable><input id="quantity" /></div>
-          <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
-          <div class="subtotal col-xs-2">$0.00</div>
-        </div>
-        <div class="items">
-          <div class="item col-xs-3">Buffalo Mozzarella Cheese</div>
-          <div class="pricePerItem col-xs-1">$60.00</div>
-          <div class="quantity col-xs-2"><lable>QTY </lable><input id="quantity" /></div>
-          <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
-          <div class="subtotal col-xs-2">$0.00</div>
-        </div>
-        <div class="items">
-          <div class="item col-xs-3">Heavy Cream</div>
-          <div class="pricePerItem col-xs-1">$60.00</div>
-          <div class="quantity col-xs-2"><lable>QTY </lable><input id="quantity" /></div>
-          <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
-          <div class="subtotal col-xs-2">$0.00</div>
-        </div>
-        <div class="items">
-          <div class="item col-xs-3">Yogurt</div>
-          <div class="pricePerItem col-xs-1">$60.00</div>
-          <div class="quantity col-xs-2"><lable>QTY </lable><input id="quantity" /></div>
-          <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
-          <div class="subtotal col-xs-2">$0.00</div>
-        </div>
-        <div class="items">
-          <div class="item col-xs-3">Sour Cream</div>
-          <div class="pricePerItem col-xs-1">$60.00</div>
-          <div class="quantity col-xs-2"><lable>QTY </lable><input id="quantity" /></div>
-          <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
-          <div class="subtotal col-xs-2">$0.00</div>
-        </div>
-        <div class="items">
-          <div class="lastItem col-xs-3">Soy Milk</div>
-          <div class="pricePerItem col-xs-1">$60.00</div>
-          <div class="quantity col-xs-2"><lable>QTY </lable><input id="quantity"></div>
-          <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item</button><button id="resetItem">Reset</button></div>
-          <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
-          <div class="subtotal col-xs-2">$0.00</div>
-        </div>
-        <div class="items">
-          <div id="newItem" class="col-xs-3"><input id="itemName" /></div>
-          <div id="newItemPriceBox" class="col-xs-1"><input id="newItemPrice" /></div>
-          <div id="createBox" class="addingButton class-xs-2 xs-offset-2">
-          <button class="create">Create</button></div>
-        </div>
+        <section>
+          <div class="items row">
+  <!--           <div class="col-xs-2 addOrResetButton"><button type="button" class="btn btn-info" id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>   -->      
+            <div class="col-xs-3 item">Skim Milk</div>
+            <div class="col-xs-1 unitPrice">$4.00</div>
+            <div class="col-xs-2 quantity"><lable>QTY </lable><input type="number" min="0" type="number" min="0" id="quantity" /></div>
+            <div class="col-xs-2 addOrResetButton"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="col-xs-2 deletingButton"><button id="deleteItem">Remove from List</button></div>
+            <div class="col-xs-2 subtotal">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="col-xs-3 item">Whole Milk</div>
+            <div class="col-xs-1 unitPrice">$3.50</div>
+            <div class="col-xs-2 quantity"><lable>QTY </lable><input type="number" min="0" type="number" min="0" id="quantity" /></div>
+            <div class="col-xs-2 addOrResetButton"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="col-xs-2 deletingButton"><button id="deleteItem">Remove from List</button></div>
+            <div class="col-xs-2 subtotal">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="col-xs-3 item">Butter</div>
+            <div class="col-xs-1 unitPrice">$5.00</div>
+            <div class="col-xs-2 quantity"><lable>QTY </lable><input type="number" min="0" id="quantity" /></div>
+            <div class="col-xs-2 addOrResetButton"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="col-xs-2 deletingButton"><button id="deleteItem">Remove from List</button></div>
+            <div class="col-xs-2 subtotal">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="item col-xs-3">Cheddar Cheese</div>
+            <div class="unitPrice col-xs-1">$12.00</div>
+            <div class="quantity col-xs-2"><lable>QTY </lable><input type="number" min="0" id="quantity" /></div>
+            <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
+            <div class="subtotal col-xs-2">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="item col-xs-3">Buffalo Mozzarella Cheese</div>
+            <div class="unitPrice col-xs-1">$18.00</div>
+            <div class="quantity col-xs-2"><lable>QTY </lable><input type="number" min="0" id="quantity" /></div>
+            <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
+            <div class="subtotal col-xs-2">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="item col-xs-3">Heavy Cream</div>
+            <div class="unitPrice col-xs-1">$6.00</div>
+            <div class="quantity col-xs-2"><lable>QTY </lable><input type="number" min="0" id="quantity" /></div>
+            <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
+            <div class="subtotal col-xs-2">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="item col-xs-3">Yogurt</div>
+            <div class="unitPrice col-xs-1">$5.50</div>
+            <div class="quantity col-xs-2"><lable>QTY </lable><input type="number" min="0" id="quantity" /></div>
+            <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
+            <div class="subtotal col-xs-2">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="item col-xs-3">Sour Cream</div>
+            <div class="unitPrice col-xs-1">$5.00</div>
+            <div class="quantity col-xs-2"><lable>QTY </lable><input type="number" min="0" id="quantity" /></div>
+            <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
+            <div class="subtotal col-xs-2">$0.00</div>
+          </div>
+          <div class="items row">
+            <div class="lastItem col-xs-3">Soy Milk</div>
+            <div class="unitPrice col-xs-1">$4.00</div>
+            <div class="quantity col-xs-2"><lable>QTY </lable><input type="number" min="0" id="quantity"></div>
+            <div class="addOrResetButton col-xs-2"><button id="addItem">Add Item(s)</button><button id="resetItem">Reset</button></div>
+            <div class="deletingButton col-xs-2"><button id="deleteItem">Remove from List</button></div>
+            <div class="subtotal col-xs-2">$0.00</div>
+          </div>
+        </section>
       </div>
     </div>
-  </section>
-  <!--   Final Cost -->
-  <section>
-    <div id="final" class="col-xs-12">
-      <h3>Total Cost</h3>
+    <!-- New Item -->
+    <div class="container">
+      <div class="row">
+        <section>
+          <div class="row newItems">
+            <div id="newItem" class="col-xs-3"><input id="itemName" /></div>
+            <div id="newItemPriceBox" class="col-xs-1"><input id="newItemPrice" /></div>
+            <div id="createBox" class="col-xs-2 col-xs-offset-2"><button id="create">Create</button></div>
+          </div>
+        </section>
+      </div>
     </div>
-    <div id="finalCost" class="col-xs-12">
-      <h3>$0.00</h3>
+    <!--   Final Cost -->
+    <div class="container">
+      <div class="row">
+        <section>
+          <div id="final" class="col-xs-12">
+            <h3>Total Cost</h3>
+          </div>
+          <div id="finalCost" class="col-xs-12">
+            <h3>$0.00</h3>
+          </div>
+        </section>
+      </div>
     </div>
-  </section>
-</body>
+  </body>
 </html>

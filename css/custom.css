@@ -1,9 +1,32 @@
-* {
-	border: 1px solid purple;
+/** {
+	border: 1px solid red;
+}*/
+
+body { 
+  background: url(/images/Fresh-farm-dairy-products.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
+.row {
+	background: white;
+}
+
+
+button {
+	border-radius: 2px;
+}
 
 .items {
-	padding: 0px 5px;
+	padding: 5px 5px;
 	margin: 0px 5px;
 }
+
+.newItems {
+	padding: 5px 5px;
+	margin: 0px 5px;
+}
+
+
