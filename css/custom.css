@@ -3,15 +3,24 @@
 }*/
 
 body { 
-  background: url(/images/Fresh-farm-dairy-products.jpg) no-repeat center center fixed; 
+  background: url(/images/Basket-with-tasty-dairy-products-on-wooden-tray-on-dark-background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.row {
-	background: white;
+div {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+/*.items > * {
+	margin: 0 auto;
+}*/
+
+#quantity {
+	float: right;
 }
 
 
@@ -19,14 +28,23 @@ button {
 	border-radius: 2px;
 }
 
+.quantity {
+	text-align: center;
+}
+
 .items {
 	padding: 5px 5px;
-	margin: 0px 5px;
+	margin: 10px 5px;
+	background-color: white;
+	border-radius: 2px;
 }
+
 
 .newItems {
 	padding: 5px 5px;
 	margin: 0px 5px;
+	background-color: white;
+	border-radius: 2px;
 }
 
 
